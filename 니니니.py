@@ -67,7 +67,7 @@ async def on_message(message):
     if message.content.startswith("ㅅㄱ"):
         await message.channel.send("......")
     if message.content.startswith("디온봇 멍청이"):
-        await message.channel.send("멍멍!")
+        await message.channel.send("무슨;")
     if message.content.startswith("!!!초대"):
         await message.channel.send("https://discordapp.com/api/oauth2/authorize?client_id=702454264240406549&permissions=8&scope=bot")
 
